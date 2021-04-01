@@ -63,7 +63,7 @@ body{
 
 
 .skill-range{
-	background: dodgerblue;
+	background: #755be9;
 }
 
 
@@ -79,9 +79,7 @@ body{
 /*-----------Article color style start......-----------*/
 
 
-.skill-progress .two , .skill-progress .four{
-	border:3px solid #00a2da!important;
-}
+.
 
 
 .author-name{
@@ -89,11 +87,11 @@ body{
 }
 
 .author-name span{
-	color: dodgerblue;
+	color: #755be9;
 }
 
 .line1{
-	background: #00a2da;
+	background: #755be9;
 	box-shadow:  0px 2px 5px rgb(255 255 255);
 }
 
@@ -103,7 +101,7 @@ body{
 
 
 .skill-progress .circle{
-	border:3px solid #666;
+	border:3px solid #755be9;
 }
 
 .ex-sub-title{
