@@ -1,0 +1,137 @@
+@import "color.css";
+@import "sidebar.css";
+@import "article.css";
+
+
+
+*{list-style: none;}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.main-section{
+	max-width: 1000px;
+	margin: 100px auto;
+	box-shadow: 0 0 82px 0px rgb(0 0 0 / 21%);
+}
+
+
+
+.fa-bars:focus ,.fa-close:focus{
+	border:1px solid skyblue;
+}
+
+.fa-bars{
+	color: balck;
+	padding: 10px;
+	display: none;
+	cursor: pointer;
+}
+
+.fa-close{
+	padding: 10px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+}
+
+#overlay{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background: #66666673;
+	z-index:-9;
+	cursor: pointer;
+	display: none;
+	transition: 0.5s;
+}
+
+.article{
+	z-index: 7;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+   	 background:rgba(0,0,0,0.2);
+  	 border-radius: 10px;
+}
+
+@media (max-width: 1050px){
+	.main-section{
+		margin:0 auto!important;
+	}
+}
+
+
+@media (min-width: 768px){
+	.side-bar{
+		
+		opacity: 1!important;
+		visibility: visible!important;
+	}
+}
+
+
+
+@media (max-width: 767px){
+
+	.main-section{
+		margin: 0 auto;
+	}
+
+	.side-bar{
+		height: 100vh;
+		position: fixed;
+		overflow-y: scroll;
+		z-index: 9;
+		opacity: 0;
+		visibility: hidden;
+		width: 0px;
+		transition: 0.3s;
+		
+	}
+
+	.side-bar .content{
+		height: 100%;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+
+	#overlay{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background: #66666673;
+	z-index:-9;
+	cursor: pointer;
+	display: block;
+
+	transition: 0.3s;
+}
+
+
+	.fa-bars{
+		color:black;
+		display: inline;
+	}
+
+	.fa-close{
+		color: #fff;
+		display: inline;
+	}
+
+
+
+}
+

@@ -1,0 +1,58 @@
+
+.author-name{
+	
+	font-size: 2.6rem;
+	letter-spacing: 6px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.author-name span{
+	font-size: 1.5rem;
+	letter-spacing: 5px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.author-title{
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+.line1{
+	height:1px;
+	width:56%;
+	margin-left: 0;
+}
+.line2{
+	height: 1px;
+	width: 100%;
+	margin-left: 0;
+}
+
+.content-title{
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+
+.skill-progress{
+	text-align: center;
+}
+
+.skill-progress .circle{
+	padding: 40px 0px;
+	border-radius: 50%;
+}
+
+.skill-progress .progress-title{
+	font-size: 1.01rem;
+	text-transform: uppercase;
+}
+
+.ex-title{
+	font-size: 1.05rem;
+	text-transform: uppercase;
+}
+.ex-sub-title{
+	font-weight: 500;
+}
